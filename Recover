@@ -1,0 +1,14 @@
+This is a forensics challenge. 
+First download and extract the file
+run strings on the file and start looking for the flag and there you go. In this strings there is a file being wwritten called the 
+flag.txt
+
+
+Method2....
+
+For this method you'll nedd a tool called autopsy which is inbuilt in kali-linux or for ubuntu or debain you can get it from
+the apt-repo 
+just do a sudo apt-get autopsy and 
+then open it with the file and start checking for the dump of the memory 
+In these dumps we can see that flag.bat is writing into a file callled flag.txt
+if you look at that written part you'll find the flag.
