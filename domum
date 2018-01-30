@@ -1,0 +1,8 @@
+This jsut like Wallpaper redirects us to an image.
+When we download the image and run several tools we got nothing.
+But when we ran strings. strings filename.
+We can see at the start of the strings the description of the file.
+In this description of the file format we can see that it contains EXIF data
+EXIF is the data that contains pixel data along with the location data etc.
+use exifviwer or the online tool called jeffery exif viewer.
+there you find where the image is found.
