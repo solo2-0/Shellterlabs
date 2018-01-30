@@ -1,0 +1,5 @@
+This is a forensics challenge in Hacking N Roll 
+When we click on the attached file we are directed to a page that contains an image which is the image from Godfather 2
+Download the image and open it with stegsolve
+Stegsolve is a tool that helps us look at various colur schemes on the image and alos change the offet of the pixels.
+So when we open the image and do a random color map on it we can easily find the hidden text.
