@@ -1,0 +1,4 @@
+This has an audio file which sounds normal when opened with any mp3 player.
+Now the real deal open it with audacity. Audacity is a tool for viewing an audio file in raw wave format etc. Now after you 
+open the file using audacity go to spectrogram and use the zoom in tool i.e the magnifying glass symbol and zoom in and play now 
+you will find some text formed out of the wave format.
