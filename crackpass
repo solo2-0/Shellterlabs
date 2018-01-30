@@ -1,2 +1,7 @@
+Open the zip file given we see it contains 2 files
+1. password
+2.shadow
+the password file specifies the username
+the shadow file has the hash of the user password
 This is a very easy one we just need the file called shadow and we need to use the command called unshadow on that file 
 That is it we can recover the password.
