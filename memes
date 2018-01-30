@@ -1,0 +1,12 @@
+This challenge is a web challenge from Arahackerday 
+Now when we access the challenge we get to a page which has nothing on it.
+Next go to the http://lab.shellterlabs.com:33401/robots.txt 
+The /robots.txt is a file present in the webpage which is basically to disallow internet bots from crawling. Using this we can see
+that 
+User-agent: *
+Disallow: /memesviewer/
+Disallow: /tafacil.txt
+so we can access /memesviewer/
+no we get to /memesviewer/ file directory structure 
+no we can see the flag.txt file here you can go ahead and click on it which will redirect you to that file.
+That is it you got the flag.
