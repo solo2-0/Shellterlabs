@@ -1,0 +1,4 @@
+This is a forensics cahllenge.
+After downloading the file just run binwalk on it and then check all the files it has.
+Extract from the file using binwalk --dd='.*' filename this will extarct all the files that are present in the image
+This will give out a file which is a QR scan the QR online and that is it.
