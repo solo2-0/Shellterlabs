@@ -1,0 +1,7 @@
+This is a pcap file.
+OPen this using wireshark and we find 802.11 data transmission which is WiFi standard so this is a router packet
+within the pcap we can see the two routers alfa and tp-link as sources and destiantions.
+Now we know that these are WiFi routers.
+After trying many methods I finally decided to do a aircrack on this, 
+That worked and it gave me a key.
+This key can be used to decrypt the data on the pcap file.
