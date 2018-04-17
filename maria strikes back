@@ -1,0 +1,8 @@
+This challenge is a very easy one if you have the patience.
+Now we see that there is a pcap file given with the challenge and we have a lot of tcp streams to check.
+Start checking now with the tcp stream 0 and at tcp stream 27 you would find the chat between maria and other guy here a password
+is shared with the attacker and then we go forward with the checking and we see that at stream 37 we have a jpeg image shared and
+This jpeg is not in the http export objects. Now save this file and then open it with steghide and use the password that we got from
+the transaction.
+Next we get a zip file and this has the flag but the zip is password protected so we need to use the fcrackzip and crack the 
+password there you go you have the flag.
