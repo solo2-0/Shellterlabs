@@ -1,7 +1,7 @@
-This is file contains a pacap file and a key file.
+This file contains a pacap data and a key file.
 Open the pcap file using wireshark.
 We see some TCP packets but they do not give out any details so we go and check all possible ways to crack it.
-Later upon lot of searching the internet I found that pem files are SSL certificates and are used while transitting data.
+Later upon lot of searching the Internet I remebered that pem files are SSL certificates and are used while transitting data.
 So we can assume that this is a SSL encrypted TCP connection.
 In wireshark after opening the file 
 ->EDIT->Preferences
